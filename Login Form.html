@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <style>
+            body {
+                background-image: url('background (2).png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            input {
+                width: 300px;
+                margin-left: 20px;
+                border-radius: 30px;
+                height: 30px;
+                background-color: rgb(215, 222, 227);
+            }
+            div {
+            margin: 150px 500px;
+            border: 1px solid;
+            border-radius: 20px;
+            backdrop-filter: blur(100px);
+           
+            padding: 50px 50px;
+            width: 350px;
+            }
+            .btn {
+                margin-left: 140px;
+                margin-top: 10px;
+                border-radius: 10px;
+                height: 30px;
+                width: 90px;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, seri
+            }
+            h2 {
+                margin-left: 100px;
+                font-size: 1.6rem;
+            }
+            h1 {
+                margin-left: 110px;
+            }
+            #pass{
+                margin-left: 120px;
+            }
+            #reset {
+                margin-left: 100px;
+            }
+            a {
+                margin-left: 110px;
+                color: rgb(213, 219, 214);
+                font-size: medium;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "container">
+	        <form action = "submit.html" id = "login">
+	            <h1>Login Page</h1>
+	            <h2>Enter Username</h2>
+	            <input type = "text" id="username" required></input> <br>
+	            <h2 id="pass">Password</h2>
+	            <input type = "password" id = "password" required></input> <br>
+	            <button type = "Submit" class = 'btn'>Submit</button>
+                <br>
+                <br>
+                <a href ="Reset.html">Forget your Password?</a>
+	        </form>
+	    </div>
+    </body>
+</html>

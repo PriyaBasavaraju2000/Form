@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reset your Password</title>
+        <style>
+            body {
+                background-image: url('background (2).png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            input {
+                width: 300px;
+                margin-left: 50px;
+                border-radius: 20px;
+                height: 25px;
+                background-color: rgb(215, 222, 227);
+            }
+            form {
+            margin: 150px 500px;
+            border: 1px solid black;
+            border-radius: 20px;
+            backdrop-filter: blur(100px);
+            padding: 50px 50px;
+            width: 350px;
+            }
+            button {
+                margin-left: 150px;
+                margin-top: 20px;
+                border-radius: 10px;
+                width: 100px;
+                height: 30px;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            h2 {
+                margin-left: 100px;
+                font-size: 1.5rem;
+                margin-bottom: 1px;
+            }
+            #email1 {
+                margin-left: 65px;
+            }
+
+            #pass{
+                margin-left: 120px;
+            }
+            #pass1 {
+                margin-left: 90px;
+            }
+            #reset {
+                margin-left: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="submit.html">
+        <h2 id ="email1">Enter your Email address</h2><br>
+        <input type="email" id="email" required><br>
+        <h2 id="pass1">Enter new password</h2><br>
+        <input type="password" id="password" required><br>
+        <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
